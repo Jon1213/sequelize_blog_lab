@@ -1,0 +1,19 @@
+{
+  "development": {
+    "database": "sqlize_blog_lab",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "username": "postgres",
+    "password": "postgresql"
+  },
+  "test": {
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
